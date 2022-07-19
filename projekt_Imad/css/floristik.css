@@ -1,0 +1,60 @@
+/*  Ein Kommentar in CSS */
+
+/*  Der * definiert den "global reset" Hier werden alle Elemente angesprochen, die später nicht anders definiert werden. */
+*
+{
+/* margin definiert den Aussenabstand einer Box */	
+	margin:0px;	
+/* padding definiert	den Innenabstand einer Box */
+	padding:0px;
+/* font-family definiert die Schriftart */	
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+html,body
+{
+	height:100%;
+}
+
+body 
+{
+	background:#f9f1f1;
+	color:black;
+	margin:0px;
+}
+#floristik
+{
+	margin:auto;
+	padding-right:150px;
+}
+.floristik
+{
+	margin:right;
+	background:red;
+}
+
+
+
+
+
+
+a
+{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:800px) {
+	
+img
+{
+	max-width:100%;
+	height:auto;
+}
+	
+	
+}

@@ -1,0 +1,116 @@
+/*  Ein Kommentar in CSS */
+
+/*  Der * definiert den "global reset" Hier werden alle Elemente angesprochen, die später nicht anders definiert werden. */
+*
+{
+/* margin definiert den Aussenabstand einer Box */	
+	margin:0px;	
+/* padding definiert	den Innenabstand einer Box */
+	padding:0px;
+/* font-family definiert die Schriftart */	
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+html,body
+{
+	height:100%;
+}
+
+body 
+{
+	background:#f9f1f1;
+	color:black;
+	margin:0px;
+}
+
+#mama
+{
+	 width:1000px;
+	 height:700px;
+	 _background:red;
+	 margin:auto;
+}
+
+#eins
+{
+	height:100px;
+	_background:pink;
+}
+
+#logo
+{
+	width:500px;
+	height:100px;
+	_background:yellow;
+	margin:auto;	
+}
+
+#logo h1
+{
+	position:rlative;
+	top:25px;
+	left:15px;
+	font-size:50px;
+	font-family:'Kaushan Script', cursive;
+	color:#29ba1a;
+	padding-top:25px;
+	
+}
+#zwei
+{
+	height:100px;
+	_background:orange;
+}
+
+
+
+#navi
+{
+	width:800px;
+	height:120px;
+	_background:forestgreen;
+	display:flex;
+}
+
+.navipunkt
+{
+	margin:10px 10px;
+	
+}
+
+
+#drei
+{
+	height:450px;
+	_background:fuchsia;
+}
+
+#inhalt
+{
+	height:500px;
+	_background:maroon;
+}
+
+
+
+
+a
+{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:800px) {
+	
+img
+{
+	max-width:100%;
+	height:auto;
+}
+	
+	
+}
